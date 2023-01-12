@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { setUser } from "./store/auth";
 import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
+import CircularLoader from "./common-ui-components/Loader";
 
 function App() {
   const dispatch = useDispatch();
@@ -31,7 +32,7 @@ function App() {
   }, []);
 
   if (loading) {
-    return <p>Loading ....</p>;
+    return <CircularLoader />;
   }
 
   return (

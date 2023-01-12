@@ -1,3 +1,6 @@
+# App is accessed through https://expense-tracker-app-by-likhit.netlify.app/login
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

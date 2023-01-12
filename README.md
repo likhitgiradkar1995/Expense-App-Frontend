@@ -1,4 +1,6 @@
-# App is accessed through https://expense-tracker-app-by-likhit.netlify.app/login
+# App is accessed through below link -
+
+expense-tracker-app-by-likhit.netlify.app
 
 
 # Getting Started with Create React App
